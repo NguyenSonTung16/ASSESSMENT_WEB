@@ -45,7 +45,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Sort menu items by popularity | \-0.25 | 0 |  | Sort by most ordered items |
 |  | › Chef recommendation | \-0.25 | 0 |  | Filter/highlight items marked as chef's recommendations |
 |  | Menu item paging | \-0.75 |  |  | Pagination for large menus with infinite scroll. URL updated on search/filter/paging |                   *pending*
-|  | View menu item details | \-0.25 |  |  | Item detail page with full description, modifiers, allergen info |                                 ***
+|  | View menu item details | \-0.25 | 0 |  | Item detail page with full description, modifiers, allergen info |                                 
 |  | View menu item status | \-0.25 | 0 |  | Display item availability status (Available, Unavailable, Sold out) |                             
 |  | Show related menu items | \-0.25 |  |  | Suggest items from same category or popular pairings |                                            *pending*
 |  | View list of item reviews | \-0.5 |  |  | Customer reviews for menu items with pagination |                                                *pending*
@@ -128,18 +128,18 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › Apply discounts | \-0.25 |  |  | Apply percentage or fixed amount discounts to bill |
 |  | › Process payment | \-0.25 |  |  | Mark bill as paid (cash, card, or e-wallet) |
 | **8** | **Advanced features** |  |  |  |  |
-|  | Payment system integration | 0.5 | 0 |  | Payment gateway integration (ZaloPay, MoMo, VNPay, Stripe, etc.) - at least 1 required |
+|  | Payment system integration | 0.5 | 0.5 |  | Payment gateway integration (ZaloPay, MoMo, VNPay, Stripe, etc.) - at least 1 required |
 |  | Fuzzy search | 0.25 |  |  | Fuzzy matching for menu item search with typo tolerance |                                                          *pending*
-|  | Use memory cache to boost performance | 0.25 |  |  | Redis for menu caching and session management |                                           ***
-|  | Analyze and track user actions | 0.25 |  |  | Google Analytics for QR scan tracking, order conversion metrics |                                ***
-|  | Dockerize your project | 0.25 |  |  | Docker containers for backend, frontend, database |                                                      ***
-|  | CI/CD | 0.25 |  |  | GitHub Actions for automated testing and deployment |                                                                     ***
+|  | Use memory cache to boost performance | 0.25 |  |  | Redis for menu caching and session management |                                           
+|  | Analyze and track user actions | 0.25 |  |  | Google Analytics for QR scan tracking, order conversion metrics |                                
+|  | Dockerize your project | 0.25 |  |  | Docker containers for backend, frontend, database |                                                      
+|  | CI/CD | 0.25 |  |  | GitHub Actions for automated testing and deployment |                                                                     
 |  | Monitoring and logging | 0.25 |  |  | Centralized application logs, metrics, dashboards, and alerting (e.g., ELK/EFK, Prometheus/Grafana) |    *chỉ mới có log chi tiết, chưa có Tích hợp hệ thống thu thập, phân tích log tập trung*
-|  | BI integration | 0.25 |  |  | Connect operational data to BI tools for reporting and dashboards (e.g., Power BI, Tableau, Metabase) |          ***
+|  | BI integration | 0.25 |  |  | Connect operational data to BI tools for reporting and dashboards (e.g., Power BI, Tableau, Metabase) |          
 |  | Advanced authorization (RBAC) | 0.25 |  |  | Fine-grained role/permission management for Admin/Chef/Waiter and other staff roles |             *Đã phân quyền theo role ở frontend, backend có sẵn hạ tầng RBAC nhưng chưa áp dụng chi tiết cho từng API.*
-|  | WebSocket real-time updates | 0.5 | 0 |  | Socket.IO for real-time features: KDS order notifications, customer order status tracking, waiter new order alerts, kitchen ready notifications, table status updates |
-|  | Multi-tenant support | 0.5 | -0.5 |  | Multiple restaurants (tenants) with strict data isolation; tenant-scoped RBAC and configuration |
-|  | Multilingual support | 0.25 | -0.25 |  | i18n for English/Vietnamese language selection |
+|  | WebSocket real-time updates | 0.5 | 0.5 |  | Socket.IO for real-time features: KDS order notifications, customer order status tracking, waiter new order alerts, kitchen ready notifications, table status updates |
+|  | Multi-tenant support | 0.5 | 0 |  | Multiple restaurants (tenants) with strict data isolation; tenant-scoped RBAC and configuration |
+|  | Multilingual support | 0.25 | 0 |  | i18n for English/Vietnamese language selection |
 
 # **GIT HISTORY**
 
