@@ -40,106 +40,106 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Home page (Menu page) | \-0.25 | 0 |  | Restaurant menu page loaded via QR code scan with categories and items |
 |  | View list of menu items | \-0.25 | 0 |  | Display menu items with images, prices, descriptions |
 |  | Filter menu items by |  |  |  | A combination of the criteria |
-|  | › Item name | \-0.25 |  |  | Search menu items by name |
-|  | › Category | \-0.25 |  |  | Filter by food categories (Appetizers, Main Dishes, Drinks, Desserts) |
-|  | Sort menu items by popularity | \-0.25 |  |  | Sort by most ordered items |
-|  | › Chef recommendation | \-0.25 |  |  | Filter/highlight items marked as chef's recommendations |
-|  | Menu item paging | \-0.75 |  |  | Pagination for large menus with infinite scroll. URL updated on search/filter/paging |
-|  | View menu item details | \-0.25 |  |  | Item detail page with full description, modifiers, allergen info |
-|  | View menu item status | \-0.25 |  |  | Display item availability status (Available, Unavailable, Sold out) |
-|  | Show related menu items | \-0.25 |  |  | Suggest items from same category or popular pairings |
-|  | View list of item reviews | \-0.5 |  |  | Customer reviews for menu items with pagination |
-|  | Add a new item review | \-0.25 |  |  | Logged-in customers can review items they ordered |
+|  | › Item name | \-0.25 | 0 |  | Search menu items by name |
+|  | › Category | \-0.25 | 0 |  | Filter by food categories (Appetizers, Main Dishes, Drinks, Desserts) |
+|  | Sort menu items by popularity | \-0.25 | 0 |  | Sort by most ordered items |
+|  | › Chef recommendation | \-0.25 | 0 |  | Filter/highlight items marked as chef's recommendations |
+|  | Menu item paging | \-0.75 |  |  | Pagination for large menus with infinite scroll. URL updated on search/filter/paging |                   *pending*
+|  | View menu item details | \-0.25 |  |  | Item detail page with full description, modifiers, allergen info |                                 ***
+|  | View menu item status | \-0.25 | 0 |  | Display item availability status (Available, Unavailable, Sold out) |                             
+|  | Show related menu items | \-0.25 |  |  | Suggest items from same category or popular pairings |                                            *pending*
+|  | View list of item reviews | \-0.5 |  |  | Customer reviews for menu items with pagination |                                                *pending*
+|  | Add a new item review | \-0.25 |  |  | Logged-in customers can review items they ordered |                                                 *pending*
 |  | Shopping cart (Order Cart) |  |  |  |  |
-|  | › Add a menu item to the Cart | \-0.25 |  |  | Add items with quantity selection |
-|  | › View and update items in the Cart | \-0.5 |  |  | Cart summary with items, quantities, modifiers, prices. Update quantity with auto-update totals |
+|  | › Add a menu item to the Cart | \-0.25 | 0 |  | Add items with quantity selection |
+|  | › View and update items in the Cart | \-0.5 | 0 |  | Cart summary with items, quantities, modifiers, prices. Update quantity with auto-update totals |
 |  | Ordering and payment (Dine-in) |  |  |  |  |
-|  | › Bind the shopping cart to the table session | \-0.25 |  |  | Cart persists for table session |
-|  | › Input order details (notes, special requests) | \-0.25 |  |  | Guest name, special instructions field |
-|  | › Add items to current order | \-0.25 |  |  | Customers can add more items to their unpaid order (single order per table session) |
-|  | › View order status | \-0.25 |  |  | Guest can track order status (Received → Preparing → Ready) |
-|  | › View order details | \-0.25 |  |  | Order confirmation with items, total, table number |
-|  | › Request bill | \-0.25 |  |  | Customer requests bill when ready to pay |
-|  | › Process payment after meal | \-0.25 |  |  | Stripe payment processing after dining |
+|  | › Bind the shopping cart to the table session | \-0.25 | 0 |  | Cart persists for table session |
+|  | › Input order details (notes, special requests) | \-0.25 |  |  | Guest name, special instructions field |                                  *pending*
+|  | › Add items to current order | \-0.25 |  |  | Customers can add more items to their unpaid order (single order per table session) |        *pending*
+|  | › View order status | \-0.25 | 0 |  | Guest can track order status (Received → Preparing → Ready) |
+|  | › View order details | \-0.25 | 0 |  | Order confirmation with items, total, table number |
+|  | › Request bill | \-0.25 |  |  | Customer requests bill when ready to pay |                                                                  ***
+|  | › Process payment after meal | \-0.25 |  |  | Stripe payment processing after dining |                                                      ***
 | **3** | **Authentication and authorization** |  |  |  |  |
-|  | Use a popular authentication library | \-1 |  |  | Passport.js with JWT strategy |
-|  | Registration (Customer Signup) | \-0.5 |  |  | Customer registration with email/password. Real-time email availability check |
-|  | Verify user input: password complexity, full name | \-0.25 |  |  | Password rules, required fields validation |
-|  | Account activation by email | \-0.25 |  |  | Email verification link sent on signup |
-|  | Social Sign-up/Sign-In | \-0.25 |  |  | Google OAuth integration |
-|  | Login to the website | \-0.25 |  |  | JWT-based authentication for admin/staff |
-|  | Authorize website features | \-0.25 |  |  | Role-based access control (Admin, Waiter, Kitchen Staff, Customer) |
-|  | Forgot password by email | \-0.25 |  |  | Password reset via email link |
+|  | Use a popular authentication library | \-1 | 0 |  | Passport.js with JWT strategy |
+|  | Registration (Customer Signup) | \-0.5 |  |  | Customer registration with email/password. Real-time email availability check |              *pending*
+|  | Verify user input: password complexity, full name | \-0.25 | 0 |  | Password rules, required fields validation |
+|  | Account activation by email | \-0.25 |  |  | Email verification link sent on signup |                                                       *pending*
+|  | Social Sign-up/Sign-In | \-0.25 |  |  | Google OAuth integration |                                                                          *pending*
+|  | Login to the website | \-0.25 |  |  | JWT-based authentication for admin/staff |                                                            *pending*
+|  | Authorize website features | \-0.25 | 0 |  | Role-based access control (Admin, Waiter, Kitchen Staff, Customer) |                           
+|  | Forgot password by email | \-0.25 |  |  | Password reset via email link |                                                                   *pending*
 | **4** | **Features for logged-in users (Customers)** |  |  |  |  |
-|  | Update user profile | \-0.25 |  |  | Customer can update name, preferences |
-|  | Verify user input | \-0.25 |  |  | Input validation on profile updates |
-|  | Update the user's avatar | \-0.25 |  |  | Profile photo upload |
-|  | Update password | \-0.25 |  |  | Change password with old password verification |
+|  | Update user profile | \-0.25 |  |  | Customer can update name, preferences |                                                                *pending*
+|  | Verify user input | \-0.25 |  |  | Input validation on profile updates |                                                                    *pending*     
+|  | Update the user's avatar | \-0.25 |  |  | Profile photo upload |                                                                            *pending*
+|  | Update password | \-0.25 |  |  | Change password with old password verification |                                                           *pending*
 |  | Order history and tracking |  |  |  |  |
-|  | › View order history | \-0.25 |  |  | List of past orders linked to user account |
-|  | › View item processing status | \-0.25 |  |  | Track individual item status within an order (Queued, Cooking, Ready) |
-|  | › Real-time Order Updates | 0.5 |  |  | WebSocket-based live order status updates for customers |
+|  | › View order history | \-0.25 |  |  | List of past orders linked to user account |                                                          *pending*
+|  | › View item processing status | \-0.25 | 0 |  | Track individual item status within an order (Queued, Cooking, Ready) |
+|  | › Real-time Order Updates | 0.5 | 0 |  | WebSocket-based live order status updates for customers |
 | **5** | **Administration features (Restaurant Admin)** |  |  |  |  |
-|  | Create Admin accounts | \-0.25 |  |  | Admin creates additional Admin accounts |
-|  | Manage Admin accounts | \-0.25 |  |  | View, edit, deactivate Admin accounts |
-|  | Update admin profile | \-0.25 |  |  | Restaurant admin profile management |
-|  | Create Waiter accounts | \-0.25 |  |  | Admin creates accounts for waiters |
-|  | Create Kitchen Staff accounts | \-0.25 |  |  | Admin creates accounts for kitchen staff |
-|  | Manage menu categories | \-0.25 |  |  | Create, edit, delete food categories |
-|  | View menu item list | \-0.5 |  |  | List all menu items with filters and pagination |
-|  | Filter menu items by name, category | \-0.25 |  |  | Search and filter menu items |
-|  | Sort menu items by creation time, price, popularity | \-0.25 |  |  | Sortable menu item list |
-|  | Create a new menu item | \-0.25 |  |  | Add item with name, price, description, category, prep time |
-|  | Upload multiple menu item photos | \-0.5 |  |  | Multi-image upload for menu items |
-|  | Add menu item to category with modifiers | \-0.25 |  |  | Assign categories and create modifier groups (Size, Extras) |
-|  | Menu Item Modifiers | 0.5 |  |  | Modifier groups (Size, Extras) with price adjustments |
-|  | Specify menu item status | \-0.25 |  |  | Available, Unavailable, Sold out |
-|  | Verify user input | \-0.25 |  |  | Input validation for menu items |
-|  | Update a menu item | \-0.25 |  |  | Edit existing menu items |
-|  | Add, remove menu item photos | \-0.25 |  |  | Manage item images |
-|  | Change menu item category, modifiers | \-0.25 |  |  | Update item categorization |
-|  | Update menu item status | \-0.25 |  |  | Toggle availability |
-|  | Verify user input | \-0.25 |  |  | Validation on updates |
+|  | Create Admin accounts | \-0.25 |  |  | Admin creates additional Admin accounts |                                                            ***
+|  | Manage Admin accounts | \-0.25 |  |  | View, edit, deactivate Admin accounts |                                                              ***
+|  | Update admin profile | \-0.25 |  |  | Restaurant admin profile management |                                                                 ***
+|  | Create Waiter accounts | \-0.25 |  |  | Admin creates accounts for waiters |                                                                ***
+|  | Create Kitchen Staff accounts | \-0.25 |  |  | Admin creates accounts for kitchen staff |                                                   ***
+|  | Manage menu categories | \-0.25 | 0 |  | Create, edit, delete food categories |
+|  | View menu item list | \-0.5 | 0 |  | List all menu items with filters and pagination |
+|  | Filter menu items by name, category | \-0.25 | 0 |  | Search and filter menu items |
+|  | Sort menu items by creation time, price, popularity | \-0.25 | 0 |  | Sortable menu item list |
+|  | Create a new menu item | \-0.25 | 0 |  | Add item with name, price, description, category, prep time |
+|  | Upload multiple menu item photos | \-0.5 | 0 |  | Multi-image upload for menu items |
+|  | Add menu item to category with modifiers | \-0.25 | 0 |  | Assign categories and create modifier groups (Size, Extras) |
+|  | Menu Item Modifiers | 0.5 | 0 |  | Modifier groups (Size, Extras) with price adjustments |
+|  | Specify menu item status | \-0.25 | 0 |  | Available, Unavailable, Sold out |
+|  | Verify user input | \-0.25 | 0 |  | Input validation for menu items |
+|  | Update a menu item | \-0.25 | 0 |  | Edit existing menu items |
+|  | Add, remove menu item photos | \-0.25 | 0 |  | Manage item images |
+|  | Change menu item category, modifiers | \-0.25 | 0 |  | Update item categorization |
+|  | Update menu item status | \-0.25 | 0 |  | Toggle availability |
+|  | Verify user input | \-0.25 | 0 |  | Validation on updates |
 |  | Customer orders (Order Management) |  |  |  |  |
-|  | › View list of orders sorted by creation time | \-0.25 |  |  | Order list in KDS sorted by time |
-|  | › Filter orders by status | \-0.25 |  |  | Filter: Received, Preparing, Ready, Completed |
-|  | › View order details | \-0.25 |  |  | Full order details with items, modifiers, notes |
-|  | › Update order status | \-0.25 |  |  | Progress order through states: Received → Preparing → Ready → Completed |
-|  | › Kitchen Display System (KDS) | -0.5 |  |  | Real-time order display for kitchen staff with sound notifications |
-|  | › Order Timer and Alerts | -0.25 |  |  | Highlight orders exceeding item's configured prep time |
+|  | › View list of orders sorted by creation time | \-0.25 |  |  | Order list in KDS sorted by time |                                           *pending*
+|  | › Filter orders by status | \-0.25 |  |  | Filter: Received, Preparing, Ready, Completed |                                                  ***
+|  | › View order details | \-0.25 | 0 |  | Full order details with items, modifiers, notes |
+|  | › Update order status | \-0.25 | 0 |  | Progress order through states: Received → Preparing → Ready → Completed |
+|  | › Kitchen Display System (KDS) | -0.5 | 0 |  | Real-time order display for kitchen staff with sound notifications |
+|  | › Order Timer and Alerts | -0.25 |  |  | Highlight orders exceeding item's configured prep time |                                           ***
 |  | Table Management |  |  |  |  |
-|  | › Create, edit, deactivate tables | -0.5 |  |  | Create, edit, deactivate tables with capacity and location |
-|  | › QR Code Generation | -0.5 |  |  | Generate unique QR codes per table with signed tokens |
-|  | › QR Code Download/Print | -0.25 |  |  | Download QR as PNG/PDF for printing |
-|  | › QR Code Regeneration | -0.25 |  |  | Regenerate QR and invalidate old codes |
+|  | › Create, edit, deactivate tables | -0.5 | 0 |  | Create, edit, deactivate tables with capacity and location |
+|  | › QR Code Generation | -0.5 | 0 |  | Generate unique QR codes per table with signed tokens |
+|  | › QR Code Download/Print | -0.25 | 0 |  | Download QR as PNG/PDF for printing |
+|  | › QR Code Regeneration | -0.25 | 0 |  | Regenerate QR and invalidate old codes |
 |  | Reports |  |  |  |  |
-|  | › View revenue report in time range | \-0.25 |  |  | Daily, weekly, monthly revenue reports |
-|  | › View top revenue by menu item in time range | \-0.25 |  |  | Best-selling items report |
-|  | › Show interactive chart in reports | \-0.25 |  |  | Chart.js/Recharts for analytics dashboard (orders/day, peak hours, popular items) |
+|  | › View revenue report in time range | \-0.25 | 0 |  | Daily, weekly, monthly revenue reports |
+|  | › View top revenue by menu item in time range | \-0.25 | 0 |  | Best-selling items report |
+|  | › Show interactive chart in reports | \-0.25 | 0 |  | Chart.js/Recharts for analytics dashboard (orders/day, peak hours, popular items) |
 | **7** | **Waiter features** |  |  |  |  |
-|  | View pending orders | \-0.25 |  |  | List of new orders waiting for waiter acceptance |
-|  | Accept/Reject order items | \-0.25 |  |  | Waiter can accept or reject individual order items |
-|  | Send orders to kitchen | \-0.25 |  |  | Forward accepted orders to Kitchen Display System |
-|  | View assigned tables | \-0.25 |  |  | See tables assigned to the waiter |
-|  | Mark orders as served | \-0.25 |  |  | Update order status when food is delivered to table |
-|  | Bill Management |  |  |  |  |
+|  | View pending orders | \-0.25 | 0 |  | List of new orders waiting for waiter acceptance |
+|  | Accept/Reject order items | \-0.25 | 0 |  | Waiter can accept or reject individual order items |
+|  | Send orders to kitchen | \-0.25 | 0 |  | Forward accepted orders to Kitchen Display System |
+|  | View assigned tables | \-0.25 | 0 |  | See tables assigned to the waiter |
+|  | Mark orders as served | \-0.25 | 0 |  | Update order status when food is delivered to table |
+|  | Bill Management |  |  |  |  |                                                                                                                ***
 |  | › Create bill for table | \-0.25 |  |  | Generate bill with all order items, subtotal, tax, and total |
 |  | › Print bill | \-0.25 |  |  | Print bill to thermal printer or download as PDF |
 |  | › Apply discounts | \-0.25 |  |  | Apply percentage or fixed amount discounts to bill |
 |  | › Process payment | \-0.25 |  |  | Mark bill as paid (cash, card, or e-wallet) |
 | **8** | **Advanced features** |  |  |  |  |
-|  | Payment system integration | 0.5 |  |  | Payment gateway integration (ZaloPay, MoMo, VNPay, Stripe, etc.) - at least 1 required |
-|  | Fuzzy search | 0.25 |  |  | Fuzzy matching for menu item search with typo tolerance |
-|  | Use memory cache to boost performance | 0.25 |  |  | Redis for menu caching and session management |
-|  | Analyze and track user actions | 0.25 |  |  | Google Analytics for QR scan tracking, order conversion metrics |
-|  | Dockerize your project | 0.25 |  |  | Docker containers for backend, frontend, database |
-|  | CI/CD | 0.25 |  |  | GitHub Actions for automated testing and deployment |
-|  | Monitoring and logging | 0.25 |  |  | Centralized application logs, metrics, dashboards, and alerting (e.g., ELK/EFK, Prometheus/Grafana) |
-|  | BI integration | 0.25 |  |  | Connect operational data to BI tools for reporting and dashboards (e.g., Power BI, Tableau, Metabase) |
-|  | Advanced authorization (RBAC) | 0.25 |  |  | Fine-grained role/permission management for Admin/Chef/Waiter and other staff roles |
-|  | WebSocket real-time updates | 0.5 |  |  | Socket.IO for real-time features: KDS order notifications, customer order status tracking, waiter new order alerts, kitchen ready notifications, table status updates |
-|  | Multi-tenant support | 0.5 |  |  | Multiple restaurants (tenants) with strict data isolation; tenant-scoped RBAC and configuration |
-|  | Multilingual support | 0.25 |  |  | i18n for English/Vietnamese language selection |
+|  | Payment system integration | 0.5 | 0 |  | Payment gateway integration (ZaloPay, MoMo, VNPay, Stripe, etc.) - at least 1 required |
+|  | Fuzzy search | 0.25 |  |  | Fuzzy matching for menu item search with typo tolerance |                                                          *pending*
+|  | Use memory cache to boost performance | 0.25 |  |  | Redis for menu caching and session management |                                           ***
+|  | Analyze and track user actions | 0.25 |  |  | Google Analytics for QR scan tracking, order conversion metrics |                                ***
+|  | Dockerize your project | 0.25 |  |  | Docker containers for backend, frontend, database |                                                      ***
+|  | CI/CD | 0.25 |  |  | GitHub Actions for automated testing and deployment |                                                                     ***
+|  | Monitoring and logging | 0.25 |  |  | Centralized application logs, metrics, dashboards, and alerting (e.g., ELK/EFK, Prometheus/Grafana) |    *chỉ mới có log chi tiết, chưa có Tích hợp hệ thống thu thập, phân tích log tập trung*
+|  | BI integration | 0.25 |  |  | Connect operational data to BI tools for reporting and dashboards (e.g., Power BI, Tableau, Metabase) |          ***
+|  | Advanced authorization (RBAC) | 0.25 |  |  | Fine-grained role/permission management for Admin/Chef/Waiter and other staff roles |             *Đã phân quyền theo role ở frontend, backend có sẵn hạ tầng RBAC nhưng chưa áp dụng chi tiết cho từng API.*
+|  | WebSocket real-time updates | 0.5 | 0 |  | Socket.IO for real-time features: KDS order notifications, customer order status tracking, waiter new order alerts, kitchen ready notifications, table status updates |
+|  | Multi-tenant support | 0.5 | -0.5 |  | Multiple restaurants (tenants) with strict data isolation; tenant-scoped RBAC and configuration |
+|  | Multilingual support | 0.25 | -0.25 |  | i18n for English/Vietnamese language selection |
 
 # **GIT HISTORY**
 
