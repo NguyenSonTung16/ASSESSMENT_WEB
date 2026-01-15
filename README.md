@@ -48,8 +48,8 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | View menu item details | \-0.25 | 0 |  | Item detail page with full description, modifiers, allergen info |                                 
 |  | View menu item status | \-0.25 | 0 |  | Display item availability status (Available, Unavailable, Sold out) |                             
 |  | Show related menu items | \-0.25 |  |  | Suggest items from same category or popular pairings |                                            *pending*
-|  | View list of item reviews | \-0.5 |  |  | Customer reviews for menu items with pagination |                                                *pending*
-|  | Add a new item review | \-0.25 |  |  | Logged-in customers can review items they ordered |                                                 *pending*
+|  | View list of item reviews | \-0.5 | 0 |  | Customer reviews for menu items with pagination |                                                
+|  | Add a new item review | \-0.25 | 0 |  | Logged-in customers can review items they ordered |                                              
 |  | Shopping cart (Order Cart) |  |  |  |  |
 |  | › Add a menu item to the Cart | \-0.25 | 0 |  | Add items with quantity selection |
 |  | › View and update items in the Cart | \-0.5 | 0 |  | Cart summary with items, quantities, modifiers, prices. Update quantity with auto-update totals |
@@ -59,8 +59,8 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › Add items to current order | \-0.25 |  |  | Customers can add more items to their unpaid order (single order per table session) |        *pending*
 |  | › View order status | \-0.25 | 0 |  | Guest can track order status (Received → Preparing → Ready) |
 |  | › View order details | \-0.25 | 0 |  | Order confirmation with items, total, table number |
-|  | › Request bill | \-0.25 |  |  | Customer requests bill when ready to pay |                                                                  ***
-|  | › Process payment after meal | \-0.25 |  |  | Stripe payment processing after dining |                                                      ***
+|  | › Request bill | \-0.25 | 0 |  | Customer requests bill when ready to pay |                                                                  
+|  | › Process payment after meal | \-0.25 | -0.1 |  | Stripe payment processing after dining |                                                      
 | **3** | **Authentication and authorization** |  |  |  |  |
 |  | Use a popular authentication library | \-1 | 0 |  | Passport.js with JWT strategy |
 |  | Registration (Customer Signup) | \-0.5 |  |  | Customer registration with email/password. Real-time email availability check |              *pending*
@@ -76,7 +76,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Update the user's avatar | \-0.25 |  |  | Profile photo upload |                                                                            *pending*
 |  | Update password | \-0.25 |  |  | Change password with old password verification |                                                           *pending*
 |  | Order history and tracking |  |  |  |  |
-|  | › View order history | \-0.25 |  |  | List of past orders linked to user account |                                                          *pending*
+|  | › View order history | \-0.25 | 0 |  | List of past orders linked to user account |                                                         
 |  | › View item processing status | \-0.25 | 0 |  | Track individual item status within an order (Queued, Cooking, Ready) |
 |  | › Real-time Order Updates | 0.5 | 0 |  | WebSocket-based live order status updates for customers |
 | **5** | **Administration features (Restaurant Admin)** |  |  |  |  |
@@ -122,11 +122,11 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Send orders to kitchen | \-0.25 | 0 |  | Forward accepted orders to Kitchen Display System |
 |  | View assigned tables | \-0.25 | 0 |  | See tables assigned to the waiter |
 |  | Mark orders as served | \-0.25 | 0 |  | Update order status when food is delivered to table |
-|  | Bill Management |  |  |  |  |                                                                                                                ***
-|  | › Create bill for table | \-0.25 |  |  | Generate bill with all order items, subtotal, tax, and total |
-|  | › Print bill | \-0.25 |  |  | Print bill to thermal printer or download as PDF |
-|  | › Apply discounts | \-0.25 |  |  | Apply percentage or fixed amount discounts to bill |
-|  | › Process payment | \-0.25 |  |  | Mark bill as paid (cash, card, or e-wallet) |
+|  | Bill Management |  |  |  |  |                                                                                                                
+|  | › Create bill for table | \-0.25 | 0 |  | Generate bill with all order items, subtotal, tax, and total |
+|  | › Print bill | \-0.25 | 0 |  | Print bill to thermal printer or download as PDF |
+|  | › Apply discounts | \-0.25 |  |  | Apply percentage or fixed amount discounts to bill |                                                      ***
+|  | › Process payment | \-0.25 |  |  | Mark bill as paid (cash, card, or e-wallet) |                                                             ***
 | **8** | **Advanced features** |  |  |  |  |
 |  | Payment system integration | 0.5 | 0.5 |  | Payment gateway integration (ZaloPay, MoMo, VNPay, Stripe, etc.) - at least 1 required |
 |  | Fuzzy search | 0.25 |  |  | Fuzzy matching for menu item search with typo tolerance |                                                          *pending*
