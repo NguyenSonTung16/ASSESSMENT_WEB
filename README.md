@@ -37,8 +37,8 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Publish to public hosts | \-1 | 0 |  | Deployed to a public hosting service with accessible URL |
 |  | Development progress is recorded in Github | \-7 | 0 |  | Git history with meaningful commits, branches for features, pull requests |
 | **2** | **Guest features (Customer Ordering)** |  |  |  |  |
-|  | Home page (Menu page) | \-0.25 |  |  | Restaurant menu page loaded via QR code scan with categories and items |
-|  | View list of menu items | \-0.25 |  |  | Display menu items with images, prices, descriptions |
+|  | Home page (Menu page) | \-0.25 | 0 |  | Restaurant menu page loaded via QR code scan with categories and items |
+|  | View list of menu items | \-0.25 | 0 |  | Display menu items with images, prices, descriptions |
 |  | Filter menu items by |  |  |  | A combination of the criteria |
 |  | › Item name | \-0.25 |  |  | Search menu items by name |
 |  | › Category | \-0.25 |  |  | Filter by food categories (Appetizers, Main Dishes, Drinks, Desserts) |
