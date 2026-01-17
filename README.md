@@ -55,7 +55,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › View and update items in the Cart | \-0.5 | 0 |  | Cart summary with items, quantities, modifiers, prices. Update quantity with auto-update totals |
 |  | Ordering and payment (Dine-in) |  |  |  |  |
 |  | › Bind the shopping cart to the table session | \-0.25 | 0 |  | Cart persists for table session |
-|  | › Input order details (notes, special requests) | \-0.25 |  |  | Guest name, special instructions field |                                  *pending*
+|  | › Input order details (notes, special requests) | \-0.25 | -0.25 |  | Guest name, special instructions field |                            
 |  | › Add items to current order | \-0.25 | 0 |  | Customers can add more items to their unpaid order (single order per table session) |      
 |  | › View order status | \-0.25 | 0 |  | Guest can track order status (Received → Preparing → Ready) |
 |  | › View order details | \-0.25 | 0 |  | Order confirmation with items, total, table number |
@@ -80,8 +80,8 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › View item processing status | \-0.25 | 0 |  | Track individual item status within an order (Queued, Cooking, Ready) |
 |  | › Real-time Order Updates | 0.5 | 0 |  | WebSocket-based live order status updates for customers |
 | **5** | **Administration features (Restaurant Admin)** |  |  |  |  |
-|  | Create Admin accounts | \-0.25 |  |  | Admin creates additional Admin accounts |                                                            ***
-|  | Manage Admin accounts | \-0.25 |  |  | View, edit, deactivate Admin accounts |                                                              ***
+|  | Create Admin accounts | \-0.25 | 0 |  | Admin creates additional Admin accounts |                                                         
+|  | Manage Admin accounts | \-0.25 | 0 |  | View, edit, deactivate Admin accounts |                                                         
 |  | Update admin profile | \-0.25 | 0 |  | Restaurant admin profile management |                                                               
 |  | Create Waiter accounts | \-0.25 | 0 |  | Admin creates accounts for waiters |                                                       
 |  | Create Kitchen Staff accounts | \-0.25 | 0 |  | Admin creates accounts for kitchen staff |      
@@ -101,12 +101,12 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Update menu item status | \-0.25 | 0 |  | Toggle availability |
 |  | Verify user input | \-0.25 | 0 |  | Validation on updates |
 |  | Customer orders (Order Management) |  |  |  |  |
-|  | › View list of orders sorted by creation time | \-0.25 |  |  | Order list in KDS sorted by time |                                           *pending*
+|  | › View list of orders sorted by creation time | \-0.25 | 0 |  | Order list in KDS sorted by time |                                    
 |  | › Filter orders by status | \-0.25 | 0 |  | Filter: Received, Preparing, Ready, Completed |                                                  
 |  | › View order details | \-0.25 | 0 |  | Full order details with items, modifiers, notes |
 |  | › Update order status | \-0.25 | 0 |  | Progress order through states: Received → Preparing → Ready → Completed |
 |  | › Kitchen Display System (KDS) | -0.5 | 0 |  | Real-time order display for kitchen staff with sound notifications |
-|  | › Order Timer and Alerts | -0.25 |  |  | Highlight orders exceeding item's configured prep time |                                           ***
+|  | › Order Timer and Alerts | -0.25 | -0.25 |  | Highlight orders exceeding item's configured prep time |                                       
 |  | Table Management |  |  |  |  |
 |  | › Create, edit, deactivate tables | -0.5 | 0 |  | Create, edit, deactivate tables with capacity and location |
 |  | › QR Code Generation | -0.5 | 0 |  | Generate unique QR codes per table with signed tokens |
@@ -125,7 +125,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Bill Management |  |  |  |  |                                                                                                                
 |  | › Create bill for table | \-0.25 | 0 |  | Generate bill with all order items, subtotal, tax, and total |
 |  | › Print bill | \-0.25 | 0 |  | Print bill to thermal printer or download as PDF |
-|  | › Apply discounts | \-0.25 |  |  | Apply percentage or fixed amount discounts to bill |                                                      ***
+|  | › Apply discounts | \-0.25 | -0.25 |  | Apply percentage or fixed amount discounts to bill |                  
 |  | › Process payment | \-0.25 | 0 |  | Mark bill as paid (cash, card, or e-wallet) |                                                   
 | **8** | **Advanced features** |  |  |  |  |
 |  | Payment system integration | 0.5 | 0.5 |  | Payment gateway integration (ZaloPay, MoMo, VNPay, Stripe, etc.) - at least 1 required |
