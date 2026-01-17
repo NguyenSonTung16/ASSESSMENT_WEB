@@ -157,7 +157,113 @@ Students must input minus points to every uncompleted feature in the SE column.
 
 | Date | Author | Commit Message | Files Changed |
 | :---- | :---- | :---- | :---- |
-| YYYY-MM-DD | \<author\> | \<commit message\> | \<number\> |
+| 2026-01-16 | tinphan247 | feat(auth): add reset password fields and fix forgot password flow | 20 |
+| 2026-01-16 | tinphan247 | feat(auth): add email verification on signup | 26 |
+| 2026-01-16 | tinphan247 | feat(menu): add fuzzy search with typo tolerance for menu items | 13 |
+| 2026-01-16 | tinphan247 | feat(admin): add staff account management for waiter and kitchen roles | 16 |
+| 2026-01-16 | tinphan247 | Fix 'Save' button not working in Profile Info section by adding data-section attribute and a hidden submit button. | 2 |
+| 2026-01-16 | TienThanhNguyen | feat: Remove history at paymentpage and delete function at account management page | 6 |
+| 2026-01-16 | tinphan247 | refactor(profile): clean section-based form handling | 3 |
+| 2026-01-16 | tinphan247 | refactor(profile): edit profile sections on demand | 11 |
+| 2026-01-16 | tinphan247 | fix(profile): keep cloudinary avatar after reload | 8 |
+| 2026-01-16 | NguyenSonTung16 | Account management: improve error handling for duplicate email, frontend notification, RESTful backend | 14 |
+| 2026-01-16 | tinphan247 | fix(frontend): correct api endpoints and methods for admin profile | 4 |
+| 2026-01-16 | tinphan247 | feat(admin-profile): implement full admin profile management (password, email, avatar) | 31 |
+| 2026-01-16 | NguyenSonTung16 | feat: export user name and email to invoice PDF; add download invoice button for completed orders in waiter history | 6 |
+| 2026-01-16 | TienThanhNguyen | feat(payment): remove history tab from payment page | 2 |
+| 2026-01-15 | NguyenSonTung16 | feat: export order invoice PDF, add endpoint, frontend button, and fix Dependency Injection | 8 |
+| 2026-01-15 | NguyenSonTung16 | Fix authentication bugs and improve login/register UI | 17 |
+| 2026-01-15 | TienThanhNguyen | feat(order-history): track user-specific orders | 10 |
+| 2026-01-15 | TienThanhNguyen | feat: enhance reviews and fix reports module | 12 |
+| 2026-01-14 | NguyenSonTung16 | Refactor seeders: split order_items into separate file, add more sample data for completed orders to support best seller report | 20 |   
+| 2026-01-14 | NguyenSonTung16 | Move OrderDetailModal outside showHistory condition, clean up modal state logic | 5 |
+| 2026-01-14 | TienThanhNguyen | feat(waiter): toast on complete & sync order card status for realtime | 12 |
+| 2026-01-14 | NguyenSonTung16 | fix(waiter, kitchen): emit order_status_update to waiter when order is marked as READY in kitchen for real-time update | 17 |
+| 2026-01-14 | NguyenSonTung16 | Fix: Pass correct tableNumber to PaymentPage and simplify table_id type handling | 3 |
+| 2026-01-13 | NguyenSonTung16 | Merge waiter and kitchen features, fix realtime order sync and related functionalities. Refactor event emit for newOrder to correct namespace, resolve DI and module import issues for WaiterGateway. Ensure instant order updates for waiter dashboard without refresh. | 90 |
+| 2026-01-13 | NguyenSonTung16 | Merge waiter and kitchen features, fix realtime order sync and related functionalities. Refactor event emit for newOrder to correct namespace, resolve DI and module import issues for WaiterGateway. Ensure instant order updates for waiter dashboard without refresh. | 43 |
+| 2026-01-13 | TienThanhNguyen | feat: improve guest tracking UI and simplify order statuses | 8 |
+| 2026-01-13 | TienThanhNguyen | feat(order): enhance guest payment flow and admin status controls | 14 |
+| 2026-01-12 | TienThanhNguyen | feat(order): integrate websocket for real-time order updates | 10 |
+| 2026-01-12 | TienThanhNguyen | feat(order): integrate websocket for real-time order updates | 9 |
+| 2026-01-09 | NguyenSonTung16 | feat: implement reports module with revenue and best-sellers views | 15 |
+| 2026-01-09 | NguyenSonTung16 | feat: add delayed order cancellation after payment expires | 21 |
+| 2026-01-08 | NguyenSonTung16 | feat(payment): migrate to DB with MoMo IPN production-ready | 25 |
+| 2026-01-08 | NguyenSonTung16 | Refactor payment workflow with integrated cart and method selection | 5 |
+| 2026-01-08 | NguyenSonTung16 | Fix review schema & improve error handling | 7 |
+| 2026-01-07 | TienThanhNguyen | fix(core): resolve review entity relation and persist user auth for submissions | 4 |
+| 2026-01-07 | TienThanhNguyen | feat(review): add admin review management and integrate with guest menu | 5 |
+| 2026-01-07 | TienThanhNguyen | feat(order): implement order status updates and order detail view | 5 |
+| 2026-01-07 | TienThanhNguyen | feat(review): implement average rating calculation | 4 |
+| 2026-01-07 | TienThanhNguyen | feat(review): implement create review functionality | 6 |
+| 2026-01-07 | TienThanhNguyen | feat: implement review list backend and frontend | 15 |
+| 2026-01-04 | NguyenSonTung16 | payment: docs and momo flow (api prefix, ngrok, frontend return) | 20 |
+| 2026-01-04 | NguyenSonTung16 | Add show/hide password toggle with SVG icons | 2 |
+| 2026-01-04 | NguyenSonTung16 | Add guest login/logout flow in guest menu page | 5 |
+| 2026-01-03 | tinphan247 | add register and profile page | 12 |
+| 2026-01-03 | NguyenSonTung16 | feat: add mobile bottom navigation and update cart UI | 4 |
+| 2026-01-03 | NguyenSonTung16 | fix error 400 when using url from table qr | 2 |
+| 2026-01-03 | TienThanhNguyen | Fix QR loading error | 8 |
+| 2026-01-03 | tinphan247 | fix: prevent direct access to admin pages without login | 3 |
+| 2026-01-02 | NguyenSonTung16 | fix hash value of user.seed, create env example | 5 |
+| 2026-01-02 | tinphan247 | fix: remove google login entry point to prevent 404 error | 2 |
+| 2026-01-02 | tinphan247 | feat: complete login and logout logic | 21 |
+| 2026-01-02 | TienThanhNguyen | feat(order): Finished order management | 18 |
+| 2025-12-30 | NguyenSonTung16 | add payment method screen | 3 |
+| 2025-12-29 | NguyenSonTung16 | feat(payment): add basic backend/frontend code for payment feature | 28 |
+| 2025-12-28 | NguyenSonTung16 | docs: add detailed implementation plan for final project submission | 7 |
+| 2025-12-28 | NguyenSonTung16 | fix SSL issue in app.module.ts | 4 |
+| 2025-12-27 | TienThanhNguyen | fix: debounce guest menu search and prevent ui flickering | 3 |
+| 2025-12-27 | TienThanhNguyen | fix: return detailed error message for upload failure | 2 |
+| 2025-12-27 | TienThanhNguyen | fix: replace streamifier with native stream and add logs | 2 |
+| 2025-12-27 | TienThanhNguyen | fix: add error logging for cloudinary upload | 2 |
+| 2025-12-27 | TienThanhNguyen | fix: install backend dependencies and relax cors | 4 |
+| 2025-12-27 | TienThanhNguyen | feat: integrate cloudinary for persistent image storage | 6 |
+| 2025-12-27 | TienThanhNguyen | fix: replace all localhost references with production urls | 7 |
+| 2025-12-27 | TienThanhNguyen | Frontend: Set default Backend URL to fix 405 error | 5 |
+| 2025-12-27 | TienThanhNguyen | Frontend: Use VITE_BACKEND_URL for API calls | 5 |
+| 2025-12-27 | TienThanhNguyen | Frontend: Fix all .map() crashes in Grids and Managers | 3 |
+| 2025-12-27 | TienThanhNguyen | Frontend: Add defensive coding (optional chaining) to prevent crashes | 2 |
+| 2025-12-27 | TienThanhNguyen | Fix TypeScript build errors | 2 |
+| 2025-12-27 | TienThanhNguyen | Fix wrong import paths to shared types in entities | 7 |
+| 2025-12-27 | TienThanhNguyen | Fix circular dependencies and import paths for Vercel deployment | 9 |
+| 2025-12-27 | TienThanhNguyen | fix: replace localhost with env vars in frontend and update cors | 3 |
+| 2025-12-27 | TienThanhNguyen | fix: use string names for relations to fix ReferenceError | 2 |
+| 2025-12-27 | TienThanhNguyen | fix: resolve circular dependencies in entities | 5 |
+| 2025-12-27 | TienThanhNguyen | fix: disable sync, force ssl, use relative paths, increase limits | 9 |
+| 2025-12-27 | TienThanhNguyen | fix: move shared types inside backend package for vercel deployment | 3 |
+| 2025-12-27 | TienThanhNguyen | fix: manual entities import and debug mode | 2 |
+| 2025-12-27 | TienThanhNguyen | update tsconfig for vercel deployment | 3 |
+| 2025-12-27 | TienThanhNguyen | Config to host to vercel | 2 |
+| 2025-12-27 | NguyenSonTung16 | xóa file md ko cần thiết | 3 |
+| 2025-12-27 | NguyenSonTung16 | Hiển thị ảnh món ăn đúng kích thước, bo góc, nền trắng cho card menu item | 8 |
+| 2025-12-27 | NguyenSonTung16 | fix: show correct item count for each category and support photo delete API | 12 |
+| 2025-12-26 | TienThanhNguyen | Menu Items CRUD + Business Rules | 28 |
+| 2025-12-25 | tinphan247 | feat: hoàn thiện upload ảnh và sửa lỗi ràng buộc database | 32 |
+| 2025-12-22 | NguyenSonTung16 | docs: add .env.example templates for setup instructions | 2 |
+| 2025-12-22 | NguyenSonTung16 | chore: add lucide-react and update project structure | 3 |
+| 2025-12-22 | NguyenSonTung16 | docs: add comprehensive Vietnamese guides | 2 |
+| 2025-12-22 | NguyenSonTung16 | feat(frontend): integrate cart with guest menu | 4 |
+| 2025-12-22 | NguyenSonTung16 | feat(frontend): implement shopping cart system | 2 |
+| 2025-12-22 | NguyenSonTung16 | feat(frontend): add mock data support for APIs | 3 |
+| 2025-12-22 | NguyenSonTung16 | feat(backend): add MenuItemsModule for admin dropdown | 3 |
+| 2025-12-22 | NguyenSonTung16 | feat(backend): add AdminAuthGuard and CurrentUser decorator | 3 |
+| 2025-12-22 | NguyenSonTung16 | feat: implement modifier management (Person 3) | 22 |
+| 2025-12-22 | NguyenSonTung16 | feat(person3): add modifier management and guest menu | 23 |
+| 2025-12-22 | NguyenSonTung16 | add menu.d.ts and file .md for work split | 76 |
+| 2025-12-20 | TienThanhNguyen | Fix missing fonts in Vercel build | 2 |
+| 2025-12-20 | TienThanhNguyen | Fix PDF download API URLs | 2 |
+| 2025-12-20 | TienThanhNguyen | Deploy to Vercel | 10 |
+| 2025-12-19 | NguyenSonTung16 | feat: implement responsive design and complete table management features | 15 |
+| 2025-12-19 | NguyenSonTung16 | feat(admin): fetch latest table data on QR view; show alert instead of modal on QR regeneration | 3 |
+| 2025-12-19 | NguyenSonTung16 | feat(admin): add sort/order controls in FilterBar and set default sorting in AdminPage | 2 |
+| 2025-12-19 | NguyenSonTung16 | feat(table): convert tableNumber to number across stack\n\n- Update shared types and DTOs\n- Change entity column to int\n- Adjust search to CAST tableNumber\n- Update QR utils payload type\n- Make TableForm numeric input for tableNumber | 6 |
+| 2025-12-19 | NguyenSonTung16 | feat(table): add optional description field across types, backend entity, DTO validation, and admin TableForm UI | 5 |
+| 2025-12-19 | NguyenSonTung16 | fix: resolve QR code download and export functionality | 18 |
+| 2025-12-18 | TienThanhNguyen | feat(qr-auth): implement QR code generation and verification logic | 24 |
+| 2025-12-16 | tinphan247 | feat(table-manager): Complete Table CRUD, fix 500/400 errors, and improve UI/UX | 2 |
+| 2025-12-15 | tinphan247 | thay doi giao dien | 9 |
+| 2025-12-15 | tinphan247 | feat: Initial setup for Table Manager (User 1) and Monorepo structure | 45 |
 
 ---
 
