@@ -129,14 +129,14 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › Process payment | \-0.25 | 0 |  | Mark bill as paid (cash, card, or e-wallet) |                                                   
 | **8** | **Advanced features** |  |  |  |  |
 |  | Payment system integration | 0.5 | 0.5 |  | Payment gateway integration (ZaloPay, MoMo, VNPay, Stripe, etc.) - at least 1 required |
-|  | Fuzzy search | 0.25 | 0 |  | Fuzzy matching for menu item search with typo tolerance |                                                          *pending*
+|  | Fuzzy search | 0.25 | 0 |  | Fuzzy matching for menu item search with typo tolerance |                                                       
 |  | Use memory cache to boost performance | 0.25 | 0 |  | Redis for menu caching and session management |                                           
 |  | Analyze and track user actions | 0.25 | 0 |  | Google Analytics for QR scan tracking, order conversion metrics |                                
 |  | Dockerize your project | 0.25 | 0 |  | Docker containers for backend, frontend, database |                                                      
 |  | CI/CD | 0.25 | 0 |  | GitHub Actions for automated testing and deployment |                                                                     
-|  | Monitoring and logging | 0.25 |  |  | Centralized application logs, metrics, dashboards, and alerting (e.g., ELK/EFK, Prometheus/Grafana) |    *chỉ mới có log chi tiết, chưa có Tích hợp hệ thống thu thập, phân tích log tập trung*
+|  | Monitoring and logging | 0.25 | 0.1 |  | Centralized application logs, metrics, dashboards, and alerting (e.g., ELK/EFK, Prometheus/Grafana) |    
 |  | BI integration | 0.25 | 0 |  | Connect operational data to BI tools for reporting and dashboards (e.g., Power BI, Tableau, Metabase) |          
-|  | Advanced authorization (RBAC) | 0.25 | 0 |  | Fine-grained role/permission management for Admin/Chef/Waiter and other staff roles |             *Đã phân quyền theo role ở frontend, backend có sẵn hạ tầng RBAC nhưng chưa áp dụng chi tiết cho từng API.*
+|  | Advanced authorization (RBAC) | 0.25 | 0.1 |  | Fine-grained role/permission management for Admin/Chef/Waiter and other staff roles |           
 |  | WebSocket real-time updates | 0.5 | 0.5 |  | Socket.IO for real-time features: KDS order notifications, customer order status tracking, waiter new order alerts, kitchen ready notifications, table status updates |
 |  | Multi-tenant support | 0.5 | 0 |  | Multiple restaurants (tenants) with strict data isolation; tenant-scoped RBAC and configuration |
 |  | Multilingual support | 0.25 | 0 |  | i18n for English/Vietnamese language selection |
