@@ -146,10 +146,10 @@ Students must input minus points to every uncompleted feature in the SE column.
 ## **Contributors**
 
 | Avatar | Username | Commits | Additions | Deletions |
-| :---- | :---- | :---- | :---- | :---- |
-|  | NguyenSonTung16 |  |  |  |
-|  | tinphan247 |  |  |  |
-|  | tienthanhnguyen331 |  |  |  |
+| :--- | :--- | :--- | :--- | :--- |
+| | NguyenSonTung16 | 55 | 53619 | 5663 |
+| | tinphan247 | 22 | 43064 | 950 |
+| | TienThanhNguyen | 61 | 8114 | 989 |
 
 ## **Commits**
 
