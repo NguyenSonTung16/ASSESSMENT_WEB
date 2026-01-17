@@ -8,9 +8,9 @@ GitHub repo URL: \<Your GitHub Repository URL\>
 
 | Student ID | Full name | Git account | Contribution | Contribution percentage (100% total) | Expected total points | Final total points |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| \<StudentID1\> | \<Student 1 fullname\> | \<git_account_1\> | \<List of tasks done by student 1\> | 33% |  |  |
-| \<StudentID2\> | \<Student 2 fullname\> | \<git_account_2\> | \<List of tasks done by student 2\> | 33% |  |  |
-| \<StudentID3\> | \<Student 3 fullname\> | \<git_account_3\> | \<List of tasks done by student 3\> | 34% |  |  |
+| \<StudentID1\> | Nguyễn Tiến Thành | TienThanhNguyen | \<List of tasks done by student 1\> | 33% | 9.65 |  |
+| \<StudentID2\> | Phan Trung Tín | tinphan247 | \<List of tasks done by student 2\> | 33% | 9.65 |  |
+| \<StudentID3\> | Nguyễn Sơn Tùng | NguyenSonTung16 | \<List of tasks done by student 3\> | 34% | 9.65 |  |
 
 # **FEATURE LIST**
 
