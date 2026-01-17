@@ -147,9 +147,9 @@ Students must input minus points to every uncompleted feature in the SE column.
 
 | Avatar | Username | Commits | Additions | Deletions |
 | :---- | :---- | :---- | :---- | :---- |
-|  | \<git_username_1\> |  |  |  |
-|  | \<git_username_2\> |  |  |  |
-|  | \<git_username_3\> |  |  |  |
+|  | NguyenSonTung16 |  |  |  |
+|  | tinphan247 |  |  |  |
+|  | tienthanhnguyen331 |  |  |  |
 
 ## **Commits**
 
