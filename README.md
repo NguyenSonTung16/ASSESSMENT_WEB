@@ -44,10 +44,10 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › Category | \-0.25 | 0 |  | Filter by food categories (Appetizers, Main Dishes, Drinks, Desserts) |
 |  | Sort menu items by popularity | \-0.25 | 0 |  | Sort by most ordered items |
 |  | › Chef recommendation | \-0.25 | 0 |  | Filter/highlight items marked as chef's recommendations |
-|  | Menu item paging | \-0.75 |  |  | Pagination for large menus with infinite scroll. URL updated on search/filter/paging |                   *pending*
+|  | Menu item paging | \-0.75 | 0 |  | Pagination for large menus with infinite scroll. URL updated on search/filter/paging |                 
 |  | View menu item details | \-0.25 | 0 |  | Item detail page with full description, modifiers, allergen info |                                 
 |  | View menu item status | \-0.25 | 0 |  | Display item availability status (Available, Unavailable, Sold out) |                             
-|  | Show related menu items | \-0.25 |  |  | Suggest items from same category or popular pairings |                                            *pending*
+|  | Show related menu items | \-0.25 | -0.25 |  | Suggest items from same category or popular pairings |                                           
 |  | View list of item reviews | \-0.5 | 0 |  | Customer reviews for menu items with pagination |                                                
 |  | Add a new item review | \-0.25 | 0 |  | Logged-in customers can review items they ordered |                                              
 |  | Shopping cart (Order Cart) |  |  |  |  |
@@ -56,25 +56,25 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Ordering and payment (Dine-in) |  |  |  |  |
 |  | › Bind the shopping cart to the table session | \-0.25 | 0 |  | Cart persists for table session |
 |  | › Input order details (notes, special requests) | \-0.25 |  |  | Guest name, special instructions field |                                  *pending*
-|  | › Add items to current order | \-0.25 |  |  | Customers can add more items to their unpaid order (single order per table session) |        *pending*
+|  | › Add items to current order | \-0.25 | 0 |  | Customers can add more items to their unpaid order (single order per table session) |      
 |  | › View order status | \-0.25 | 0 |  | Guest can track order status (Received → Preparing → Ready) |
 |  | › View order details | \-0.25 | 0 |  | Order confirmation with items, total, table number |
 |  | › Request bill | \-0.25 | 0 |  | Customer requests bill when ready to pay |                                                                  
 |  | › Process payment after meal | \-0.25 | -0.1 |  | Stripe payment processing after dining |                                                      
 | **3** | **Authentication and authorization** |  |  |  |  |
 |  | Use a popular authentication library | \-1 | 0 |  | Passport.js with JWT strategy |
-|  | Registration (Customer Signup) | \-0.5 |  |  | Customer registration with email/password. Real-time email availability check |              *pending*
+|  | Registration (Customer Signup) | \-0.5 | 0 |  | Customer registration with email/password. Real-time email availability check |            
 |  | Verify user input: password complexity, full name | \-0.25 | 0 |  | Password rules, required fields validation |
-|  | Account activation by email | \-0.25 |  |  | Email verification link sent on signup |                                                       *pending*
-|  | Social Sign-up/Sign-In | \-0.25 |  |  | Google OAuth integration |                                                                          *pending*
-|  | Login to the website | \-0.25 |  |  | JWT-based authentication for admin/staff |                                                            *pending*
+|  | Account activation by email | \-0.25 | 0 |  | Email verification link sent on signup |                                                    
+|  | Social Sign-up/Sign-In | \-0.25 | -0.25 |  | Google OAuth integration |                                                                       
+|  | Login to the website | \-0.25 | 0 |  | JWT-based authentication for admin/staff |                
 |  | Authorize website features | \-0.25 | 0 |  | Role-based access control (Admin, Waiter, Kitchen Staff, Customer) |                           
-|  | Forgot password by email | \-0.25 |  |  | Password reset via email link |                                                                   *pending*
+|  | Forgot password by email | \-0.25 | 0 |  | Password reset via email link |                           
 | **4** | **Features for logged-in users (Customers)** |  |  |  |  |
-|  | Update user profile | \-0.25 |  |  | Customer can update name, preferences |                                                                *pending*
-|  | Verify user input | \-0.25 |  |  | Input validation on profile updates |                                                                    *pending*     
-|  | Update the user's avatar | \-0.25 |  |  | Profile photo upload |                                                                            *pending*
-|  | Update password | \-0.25 |  |  | Change password with old password verification |                                                           *pending*
+|  | Update user profile | \-0.25 | 0 |  | Customer can update name, preferences |                                                             
+|  | Verify user input | \-0.25 | 0 |  | Input validation on profile updates |                                                                    
+|  | Update the user's avatar | \-0.25 | 0 |  | Profile photo upload |                                                                        
+|  | Update password | \-0.25 | 0 |  | Change password with old password verification |                                                         
 |  | Order history and tracking |  |  |  |  |
 |  | › View order history | \-0.25 | 0 |  | List of past orders linked to user account |                                                         
 |  | › View item processing status | \-0.25 | 0 |  | Track individual item status within an order (Queued, Cooking, Ready) |
@@ -82,9 +82,9 @@ Students must input minus points to every uncompleted feature in the SE column.
 | **5** | **Administration features (Restaurant Admin)** |  |  |  |  |
 |  | Create Admin accounts | \-0.25 |  |  | Admin creates additional Admin accounts |                                                            ***
 |  | Manage Admin accounts | \-0.25 |  |  | View, edit, deactivate Admin accounts |                                                              ***
-|  | Update admin profile | \-0.25 |  |  | Restaurant admin profile management |                                                                 ***
-|  | Create Waiter accounts | \-0.25 |  |  | Admin creates accounts for waiters |                                                                ***
-|  | Create Kitchen Staff accounts | \-0.25 |  |  | Admin creates accounts for kitchen staff |                                                   ***
+|  | Update admin profile | \-0.25 | 0 |  | Restaurant admin profile management |                                                               
+|  | Create Waiter accounts | \-0.25 | 0 |  | Admin creates accounts for waiters |                                                       
+|  | Create Kitchen Staff accounts | \-0.25 | 0 |  | Admin creates accounts for kitchen staff |      
 |  | Manage menu categories | \-0.25 | 0 |  | Create, edit, delete food categories |
 |  | View menu item list | \-0.5 | 0 |  | List all menu items with filters and pagination |
 |  | Filter menu items by name, category | \-0.25 | 0 |  | Search and filter menu items |
@@ -126,10 +126,10 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › Create bill for table | \-0.25 | 0 |  | Generate bill with all order items, subtotal, tax, and total |
 |  | › Print bill | \-0.25 | 0 |  | Print bill to thermal printer or download as PDF |
 |  | › Apply discounts | \-0.25 |  |  | Apply percentage or fixed amount discounts to bill |                                                      ***
-|  | › Process payment | \-0.25 |  |  | Mark bill as paid (cash, card, or e-wallet) |                                                             ***
+|  | › Process payment | \-0.25 | 0 |  | Mark bill as paid (cash, card, or e-wallet) |                                                   
 | **8** | **Advanced features** |  |  |  |  |
 |  | Payment system integration | 0.5 | 0.5 |  | Payment gateway integration (ZaloPay, MoMo, VNPay, Stripe, etc.) - at least 1 required |
-|  | Fuzzy search | 0.25 |  |  | Fuzzy matching for menu item search with typo tolerance |                                                          *pending*
+|  | Fuzzy search | 0.25 | 0.25 |  | Fuzzy matching for menu item search with typo tolerance |                                                          *pending*
 |  | Use memory cache to boost performance | 0.25 |  |  | Redis for menu caching and session management |                                           
 |  | Analyze and track user actions | 0.25 |  |  | Google Analytics for QR scan tracking, order conversion metrics |                                
 |  | Dockerize your project | 0.25 |  |  | Docker containers for backend, frontend, database |                                                      
