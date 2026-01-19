@@ -147,9 +147,9 @@ Students must input minus points to every uncompleted feature in the SE column.
 
 | Avatar | Username | Commits | Additions | Deletions |
 | :--- | :--- | :--- | :--- | :--- |
-| | NguyenSonTung16 | 55 | 53619 | 5663 |
+| | NguyenSonTung16 | 60 | 54693 | 28830 |
 | | tinphan247 | 22 | 43064 | 950 |
-| | TienThanhNguyen | 61 | 8114 | 989 |
+| | TienThanhNguyen | 69 | 9809 | 1835 |
 
 ## **Commits**
 
@@ -157,6 +157,19 @@ Students must input minus points to every uncompleted feature in the SE column.
 
 | Date | Author | Commit Message | Files Changed |
 | :---- | :---- | :---- | :---- |
+| 2026-01-19 | NguyenSonTung16 | delete unnecessary files | 70 |
+| 2026-01-19 | TienThanhNguyen | Fix: Hardcode frontend URL in PDF generator  1 file changed, 2 insertions(+), 2 deletions(-) | 0 |
+| 2026-01-19 | TienThanhNguyen | Fix: Update fallback FRONTEND_URL in PDF generator for QR codes  1 file changed, 75 insertions(+), 75 deletions(-) | 0 |
+| 2026-01-19 | TienThanhNguyen | Fix: Performance Optimization & Avatar Upload (Squashed) | 18 |
+| 2026-01-19 | TienThanhNguyen | Feat: Complete Auth Flow with Guest Redirect & Safe Auto-Verify | 6 |
+| 2026-01-19 | NguyenSonTung16 | Fix: Identity Swap, Avatar Persistence & UI Cleanup  - Fix Identity Swap: Backend now correctly uses JWT sub for User ID.  - Fix Avatar Persistence: Added avatar to login response and service query.  - UI: Adjusted Logout button position and removed debug logs. | 9 |
+| 2026-01-19 | TienThanhNguyen | Fix: Ignore local .env files  1 file changed, 4 insertions(+) | 0 |
+| 2026-01-19 | TienThanhNguyen | Update: Guest Menu UI (Responsive), Payment Options, and System Fixes | 35 |
+| 2026-01-19 | NguyenSonTung16 | add user profile | 7 |
+| 2026-01-19 | NguyenSonTung16 | synchronize data when profile information changes in admin profile | 7 |
+| 2026-01-19 | TienThanhNguyen | Prepare for Render deployment with SendGrid | 6 |
+| 2026-01-18 | TienThanhNguyen | Prepare for Render deployment | 5 |
+| 2026-01-17 | NguyenSonTung16 | Fix: update seeders to match migrations and data relations, add set up guide file | 9 |
 | 2026-01-17 | NguyenSonTung16 | feat: update staff role management, fix order sorting, clarify search, review requirements  - Merge branch account-management and fix-log-in-flow | 0 |
 | 2026-01-16 | tinphan247 | feat(auth): add reset password fields and fix forgot password flow | 20 |
 | 2026-01-16 | tinphan247 | feat(auth): add email verification on signup | 26 |
@@ -167,18 +180,18 @@ Students must input minus points to every uncompleted feature in the SE column.
 | 2026-01-16 | TienThanhNguyen | feat: Remove history at paymentpage and delete function at account management page | 6 |
 | 2026-01-16 | tinphan247 | refactor(profile): clean section-based form handling | 3 |
 | 2026-01-16 | tinphan247 | refactor(profile): edit profile sections on demand  - Switch profile page to view/edit per section - Enable edit mode only when section is clicked - Improve admin profile UX clarity | 11 |
-| 2026-01-16 | tinphan247 | fix(profile): keep cloudinary avatar after reload  - normalize uploadAvatar response - sync profile.avatar with GET /admin/profile | 8 |      
+| 2026-01-16 | tinphan247 | fix(profile): keep cloudinary avatar after reload  - normalize uploadAvatar response - sync profile.avatar with GET /admin/profile | 8 |
 | 2026-01-16 | NguyenSonTung16 | Account management: improve error handling for duplicate email, frontend notification, RESTful backend | 14 |
 | 2026-01-16 | tinphan247 | fix(frontend): correct api endpoints and methods for admin profile  - Update App.tsx to use AdminProfilePage component - Remove /update suffix from profile update patch request - Change password and email change methods from POST to PATCH to match backend - Fix avatar upload field name to 'avatar' - Ensure all profile requests include auth headers | 4 |
 | 2026-01-16 | tinphan247 | feat(admin-profile): implement full admin profile management (password, email, avatar) | 31 |
 | 2026-01-16 | NguyenSonTung16 | feat: export user name and email to invoice PDF; add download invoice button for completed orders in waiter history | 6 |
 | 2026-01-16 | TienThanhNguyen | feat(payment): remove history tab from payment page | 2 |
-| 2026-01-16 | NguyenSonTung16 | feat: add guest bill request feature (alert waiter when guest requests invoice)  1 file changed, 10 insertions(+), 6 deletions(-) | 0 |  
+| 2026-01-16 | NguyenSonTung16 | feat: add guest bill request feature (alert waiter when guest requests invoice)  1 file changed, 10 insertions(+), 6 deletions(-) | 0 |
 | 2026-01-15 | NguyenSonTung16 | feat: export order invoice PDF, add endpoint, frontend button, and fix Dependency Injection | 8 |
 | 2026-01-15 | NguyenSonTung16 | Fix authentication bugs and improve login/register UI  - Fix issue where login state on one screen affected other screens - Hide history and protected data when user is not logged in - Improve UI layout and consistency for login and register screens | 17 |
 | 2026-01-15 | TienThanhNguyen | feat(order-history): track user-specific orders | 10 |
 | 2026-01-15 | TienThanhNguyen | feat: enhance reviews and fix reports module  - Displays the reviewer's name in the review list.  - Fixes a 500 internal server error in the admin revenue report. | 12 |
-| 2026-01-14 | NguyenSonTung16 | Refactor seeders: split order_items into separate file, add more sample data for completed orders to support best seller report | 20 |   
+| 2026-01-14 | NguyenSonTung16 | Refactor seeders: split order_items into separate file, add more sample data for completed orders to support best seller report | 20 |
 | 2026-01-14 | NguyenSonTung16 | Move OrderDetailModal outside showHistory condition, clean up modal state logic | 5 |
 | 2026-01-14 | TienThanhNguyen | feat(waiter): toast on complete & sync order card status for realtime | 12 |
 | 2026-01-14 | NguyenSonTung16 | fix(waiter, kitchen): emit order_status_update to waiter when order is marked as READY in kitchen for real-time update | 17 |
@@ -210,7 +223,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 | 2026-01-03 | tinphan247 | Merge branch 'main' of https://github.com/tinphan247/Restaurant-WEB | 0 |
 | 2026-01-03 | tinphan247 | add register and profile page | 12 |
 | 2026-01-03 | NguyenSonTung16 | feat: add mobile bottom navigation and update cart UI | 4 |
-| 2026-01-03 | NguyenSonTung16 | fix: validate JWT token format in decodeJwtPayload to prevent undefined payload error  1 file changed, 18 insertions(+), 1 deletion(-) | 0 |
+| 2026-01-03 | NguyenSonTung16 | fix: validate JWT token format in decodeJwtPayload to prevent undefined payload error  1 file changed, 18 insertions(+), 1 deletion(-) | 0 |    
 | 2026-01-03 | NguyenSonTung16 | fix error 400 when using url from table qr | 2 |
 | 2026-01-03 | TienThanhNguyen | Fix QR loading error | 8 |
 | 2026-01-03 | tinphan247 | fix: prevent direct access to admin pages without login | 3 |
@@ -262,13 +275,13 @@ Students must input minus points to every uncompleted feature in the SE column.
 | 2025-12-25 | tinphan247 | feat: hoàn thiện upload ảnh và sửa lỗi ràng buộc database | 32 |
 | 2025-12-22 | NguyenSonTung16 | docs: add .env.example templates for setup instructions  - Add backend/.env.example with database, JWT, server config - Add frontend/.env.example with API URL and mock mode option - Include comments explaining each variable - Helps new developers understand required setup | 2 |
 | 2025-12-22 | NguyenSonTung16 | chore: add lucide-react and update project structure  - Add lucide-react@0.562.0 for cart icons - Update Week_MenuManagement_split.md: move photos to Person 1 - Lock dependency versions | 3 |
-| 2025-12-22 | NguyenSonTung16 | docs: add comprehensive Vietnamese guides  - MODIFIER_EXPLANATION.md: Purpose, flow, UI components, benefits - HOW_TO_ATTACH_MODIFIERS.md: Step-by-step attachment guide - Include API examples, UI walkthrough, mock data setup - Real-world examples for Phở with modifiers - Troubleshooting section | 2 |      
+| 2025-12-22 | NguyenSonTung16 | docs: add comprehensive Vietnamese guides  - MODIFIER_EXPLANATION.md: Purpose, flow, UI components, benefits - HOW_TO_ATTACH_MODIFIERS.md: Step-by-step attachment guide - Include API examples, UI walkthrough, mock data setup - Real-world examples for Phở with modifiers - Troubleshooting section | 2 |
 | 2025-12-22 | NguyenSonTung16 | feat(frontend): integrate cart with guest menu  - GuestMenuPage: Wrap with CartProvider, add floating cart button - MenuItemCard: Integrate useCart() addItem with modifier validation - CartSidebar: Show cart with item count badge - ScanPage: Add JWT token decoding for mock mode table info - mockData.ts: Add realistic modifiers for Phở, Bún bò, drinks - Display mock mode indicator and table number in header | 4 |
 | 2025-12-22 | NguyenSonTung16 | feat(frontend): replace UUID input with searchable dropdown  - AttachModifiersToItem: Load menu items from menuItemApi - Searchable dropdown with real-time filtering - Display format: 'Phở bò tái chín - 65,000đ (Món chính)' - Selected item preview card with name, price, description, ID - Search box: ' Tìm món theo tên...' - Improved UX: no UUID knowledge required for admins  1 file changed, 103 insertions(+), 23 deletions(-) | 0 |
 | 2025-12-22 | NguyenSonTung16 | feat(frontend): implement shopping cart system  - Create CartContext with global state management - CartProvider with items, itemCount, totalPrice - Add/remove/update quantity operations - getItemPrice() calculates base + modifier adjustments - CartSidebar component with full UI: - Item list with modifier display - Quantity controls (+/-/remove) - Total price calculation - Clear cart and checkout buttons | 2 |
-| 2025-12-22 | NguyenSonTung16 | feat(frontend): add mock data support for APIs  - menuItemApi: buildMockMenuItems() converter from MockMenu data - modifierApi: in-memory mockStorage for groups and attachments - Support VITE_USE_MOCK_MENU environment flag - Fallback to mock data on API errors - Export mockMenuItems for reuse across components | 3 |
+| 2025-12-22 | NguyenSonTung16 | feat(frontend): add mock data support for APIs  - menuItemApi: buildMockMenuItems() converter from MockMenu data - modifierApi: in-memory mockStorage for groups and attachments - Support VITE_USE_MOCK_MENU environment flag - Fallback to mock data on API errors - Export mockMenuItems for reuse across components | 3 |    
 | 2025-12-22 | NguyenSonTung16 | feat(backend): add MenuItemsModule for admin dropdown  - Create MenuItemsModule with MenuItemsController - Add GET /api/admin/menu/items endpoint - Return simplified item list: id, name, price, category, status - Use QueryBuilder with joins for efficient queries - Register MenuItemsModule in app.module.ts | 3 |
-| 2025-12-22 | NguyenSonTung16 | perf(backend): optimize ModifierService queries  - Replace find() with QueryBuilder for better performance - Use batch inserts with createQueryBuilder for attach operations - Add transaction for attach/detach to ensure data consistency - Optimize deleteModifierGroup with direct delete (no entity load) - Reduce N+1 queries with proper joins and selects - Use exist() instead of findOne() for validation checks  1 file changed, 102 insertions(+), 111 deletions(-) | 0 |        
+| 2025-12-22 | NguyenSonTung16 | perf(backend): optimize ModifierService queries  - Replace find() with QueryBuilder for better performance - Use batch inserts with createQueryBuilder for attach operations - Add transaction for attach/detach to ensure data consistency - Optimize deleteModifierGroup with direct delete (no entity load) - Reduce N+1 queries with proper joins and selects - Use exist() instead of findOne() for validation checks  1 file changed, 102 insertions(+), 111 deletions(-) | 0 |
 | 2025-12-22 | NguyenSonTung16 | feat(backend): add AdminAuthGuard and CurrentUser decorator  - Create AdminAuthGuard with placeholder JWT verification - Add CurrentUser decorator to extract user info from request - Update ModifierController to use @UseGuards(AdminAuthGuard) - Replace hardcoded restaurantId with @CurrentUser('restaurantId') - Ready for production JWT implementation | 3 |
 | 2025-12-22 | NguyenSonTung16 | feat: implement modifier management (Person 3)  - Backend: 7 endpoints for modifier groups, options, attach/detach to items - Validation: min/max range, isRequired+options, priceAdjustment>=0 - Frontend: CRUD groups/options, attach modifiers UI, sidebar navigation - Client validation: min<=max for multiple, default minSelections=1 when required - Fixed: priceAdjustment toFixed coercion, delete group endpoint - Route: default to /admin dashboard instead of guest menu | 22 |
 | 2025-12-22 | NguyenSonTung16 | feat(person3): add modifier management and guest menu  - Add modifier groups, options, and attach to items endpoints - Add public guest menu with filter, sort, pagination - Register modules in AppModule - Remove migrations for consistency | 23 |
