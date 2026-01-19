@@ -1,8 +1,8 @@
 # Final project Self-assessment report
 
-Team: \<StudentID1\>-\<StudentID2\>-\<StudentID3\>
+Team: 23120358-23120372-23120399
 
-GitHub repo URL: \<Your GitHub Repository URL\>
+GitHub repo URL: https://github.com/tinphan247/Restaurant-WEB.git
 
 # **TEAM INFORMATION**
 
