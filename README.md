@@ -12,6 +12,15 @@ GitHub repo URL: https://github.com/tinphan247/Restaurant-WEB.git
 | 23120372 | Phan Trung Tín | tinphan247 | - Xây dựng hệ thống lõi, quản lý bàn (CRUD, kiểm tra dữ liệu, giao diện admin)<br>- Xây dựng API quản trị danh mục (CRUD, kiểm tra dữ liệu, soft delete, displayOrder)<br>- Phát triển giao diện quản lý danh mục, CategoryForm, tích hợp API<br>- Quản lý hình ảnh (upload, giới hạn dung lượng, thiết lập ảnh chính)<br>- Thiết kế, xây dựng DB và backend cho User/Auth (migration, seed, entity, controller, service)<br>- Triển khai module Auth (đăng ký, đăng nhập, JWT)<br>- Xây dựng giao diện đăng ký, đăng nhập, profile, kết nối API<br>- Xây dựng API Waiter/Kitchen, WebSocket notification, giao diện waiter/kitchen<br>- Thiết kế migration/schema, seed cho waiter, kitchen, table<br>- Quản lý Menu: paging, sort, fuzzy search<br>- Phát triển Authentication: xác thực email, quên mật khẩu, đăng nhập, phân quyền<br>- Xây dựng chức năng tài khoản khách hàng: cập nhật hồ sơ, đổi mật khẩu, upload avatar, xem lịch sử đơn hàng | 33.333% | 9.65 |  |
 | 23120399 | Nguyễn Sơn Tùng | NguyenSonTung16 | - Xây dựng công cụ xuất dữ liệu, giao diện hiển thị mã QR, xuất PNG/PDF<br>- Rà soát, tinh chỉnh, tích hợp mã nguồn, bổ sung yêu cầu còn thiếu<br>- Quản lý nhóm tùy chọn (Modifier Groups), options (min/max selection, tính giá)<br>- Phát triển endpoint /api/menu, giao diện GuestMenuPage, tối ưu truy vấn<br>- Thiết kế, xây dựng DB và backend cho Payment (migration, seed, module, mock API Stripe/MoMo)<br>- Phát triển giao diện thanh toán, trạng thái thanh toán, kết nối API Payment<br>- Hoàn thiện module Payment, tích hợp cổng thanh toán, xây dựng module Report (doanh thu, best seller)<br>- Phát triển dashboard báo cáo, kết nối API Payment/Report<br>- Thiết kế migration/schema, seed cho payment, report<br>- Quản lý tài khoản Admin, Waiter, Kitchen Staff (CRUD, update profile)<br>- Xây dựng chức năng khách hàng yêu cầu thanh toán/bill, xử lý luồng thanh toán | 33.333% | 9.65 |  |
 
+## **Contribution Chart**
+
+```mermaid
+pie title Contribution Percentage
+    "Nguyễn Tiến Thành" : 33.3
+    "Phan Trung Tín" : 33.3
+    "Nguyễn Sơn Tùng" : 33.3
+```
+
 # **FEATURE LIST**
 
 **Project:** Smart Restaurant - QR Menu Ordering System
